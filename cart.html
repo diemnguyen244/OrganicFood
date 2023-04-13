@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styles/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./Styles/cart.css" />
+    <link rel="stylesheet" href="./Styles/home.css" />
+    <title>ORGANIC FOODS</title>
+  </head>
+  <body>
+    <header class="header-fixed">
+      <!-- HEADER -->
+      <div class="container">
+        <div class="d-flex header">
+          <a class="header-branch" href="./home.html">Organic Foods</a>
+          <nav class="nav">
+            <ul class="header-nav d-flex">
+              <li><a href="./home.html">HOME</a></li>
+              <li><a href="./product.html">SHOP</a></li>
+              <li><a href="./about.html">ABOUT</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <div class="login">
+                <li>
+                  <a class="account" href="#"
+                    ><i class="fa-solid fa-user-tie"></i
+                  ></a>
+                </li>
+                <div class="login-box">
+                  <ul>
+                    <li><a href="./login.html" id="login">Sign up/ Log in</a></li>
+                    <li><a href="#" id="order">Orders</a></li>
+                  </ul>
+                </div>
+              </div>
+              <li>
+                <a class="cart" href="#">
+                  <i class="fa-solid fa-cart-shopping cart-quantity"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Banner -->
+      <section class="hero-banner-about d-flex relative">
+        <div class="overlay absolute"></div>
+        <div class="hero-content">
+          <h2 class="hero-about-h2">HOME CART</h2>
+          <h1 class="hero-about-h1">MY CART</h1>
+        </div>
+      </section>
+      <!-- End banner -->
+
+      <!-- Cart -->
+      <div class="cart-container">
+        <div class="cart-detail">
+          <table cellpadding="0" cellspacing="0" id="cart">
+            <!-- <tr>
+              <th class="image"></th>
+              <th class="product-name">Product name</th>
+              <th class="price">Price</th>
+              <th class="quantity">Quantity</th>
+              <th class="total">Total</th>
+              <th class="button"></th>
+            </tr> -->
+            <!-- <tr>
+              <td class="image">
+                <img src="./Assets/peper.jpeg" alt="" srcset="" />
+              </td>
+              <td class="product-name">Bell Pepper</td>
+              <td class="price">$4.99</td>
+              <td class="quantity">1</td>
+              <td class="total">$4.99</td>
+              <td class="button">x</td>
+            </tr> -->
+          </table>
+        </div>
+      </div>
+      <div class="cart-total">
+        <!-- <div class="totals">
+          <div class="totals-item">
+            <label>Subtotal</label>
+            <div class="totals-value" id="cart-subtotal">71.97</div>
+          </div>
+          <div class="totals-item">
+            <label>Tax (5%)</label>
+            <div class="totals-value" id="cart-tax">3.60</div>
+          </div>
+          <div class="totals-item">
+            <label>Shipping</label>
+            <div class="totals-value" id="cart-shipping">15.00</div>
+          </div>
+          <div class="totals-item totals-item-total">
+            <label>Grand Total</label>
+            <div class="totals-value" id="cart-total">90.57</div>
+          </div>
+        </div>
+        <button class="checkout">Checkout</button> -->
+      </div>
+      <!-- End Cart -->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <div class="footer-p">
+                <h2>Vegefoods</h2>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia
+                </p>
+              </div>
+
+              <ul class="d-flex footer-p-icons flex-justify">
+                <li>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-menu column">
+              <h2>Menu</h2>
+              <ul>
+                <li><a href="">Shop</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <div class="">
+                <h2 class="">Help</h2>
+                <div class="d-flex footer-help">
+                  <ul>
+                    <li><a href="">Shipping Information</a></li>
+                    <li><a href="">Returns & Exchange</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="">FAQs </a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="column footer-question">
+              <h2>Have a Questions?</h2>
+              <ul>
+                <li>
+                  <span><i class="fa-solid fa-location-dot"></i></span>
+                  <span>
+                    203 Fake St. Mountain View, San Francisco, California,
+                    USA</span
+                  >
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-phone"></i></span>
+                  <span>0908.237.823</span>
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-envelope"></i></span>
+                  <span>organic.food@gmail.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End footer -->
+    </main>
+    <script src="./Functions/account.js"></script>
+    <script src="./Functions/cart.js"></script>
+  </body>
+</html>
